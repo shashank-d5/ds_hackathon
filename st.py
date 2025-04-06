@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
-performance_model=joblib.load('performance_mode.pk1')
+performance_model=joblib.load('performance_model.pk1')
 attrition_model=joblib.load('attrition_model.pk1')
 st.title("Employee performance & attrition Predictor")
 st.sidebar.header("Employee Info")
