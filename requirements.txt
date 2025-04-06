@@ -1,0 +1,9 @@
+Jupyter Notebook
+PowerBI
+Streamlit
+numpy
+pandas
+matplotlib
+scikit-learn
+joblib
+seaborn
