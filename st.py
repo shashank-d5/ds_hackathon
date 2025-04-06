@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_squared_error, accuracy_score, precision_score, recall_score, f1_score
 
 # Load and preprocess data
-data = pd.read_csv("https://drive.google.com/file/d/14gxCw2-5fNsWzHl9R3EPh5Bz1JRDh4tc/view?usp=sharing")
+data = pd.read_csv("HR_Analytics.csv")
 data['YearsWithCurrManager'].fillna(data['YearsWithCurrManager'].median(), inplace=True)
 data.drop(columns=['EmpID', 'EmployeeNumber', 'Over18', 'EmployeeCount', 'StandardHours'], inplace=True)
 
