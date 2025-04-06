@@ -1,9 +1,3 @@
-Jupyter
-PowerBI
-Streamlit
+﻿streamlit
 numpy
-pandas
-matplotlib
-scikit-learn
 joblib
-seaborn
